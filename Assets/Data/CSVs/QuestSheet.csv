@@ -1,0 +1,30 @@
+﻿ID,Title,QuestType,QuestDetail,QuestAmount,TimeLimit,ResultDialogues,Description,CompleteText,RewardType,RewardNum,RewardDetail
+Q001,주술사의 증명,KILL,M510,2,,ALTAR01_1,염(녹) 처치하기,요청을 완료함,SOUL,30,
+Q002,성불 해보기,PURIFY,M510,1,,ALTAR01_3,염(녹) 성불하기,요청을 완료함,STAT,2,POINT
+Q003,생태계 관리,KILL,M519,1,,ALTAR01_5,블로 처치하기,요청을 완료함,SOUL,100,
+Q004,성장을 증명하기,KILL,M303,1,,ALTAR01_7,움 처치하기,요청을 완료함,STAT,3,POINT
+Q005,또 다른 제단,TALK,ALTAR02_1,,,,중앙의 제단을 찾기,대화 완료,STAT,6,POINT
+Q006,요그누와의 대화,TALK,ALTAR03_1,,,,관심이 생겼다면 대화하기,대화 완료,SOUL,10,
+Q007,기본적인 전투실력,KILL,M507,2,,ALTAR03_3,요그누의 땅고양이 처치하기,요청을 완료함,SOUL,30,
+Q008,허기진 염,KILL,M513,3,,ALTAR03_5,허기진 염 처치하기,요청을 완료함,SOUL,30,
+Q009,흠의 존재,PURIFY,M101,2,,ALTAR03_7,굶주린 흠 성불하기,요청을 완료함,STAT,4,POINT
+Q010,또 다른 제단2,TALK,ALTAR04_0,,,,다른 제단을 찾기,대화 완료,SOUL,15,
+Q011,강한 시련의 준비,TALK,ALTAR04_2,,,,신과의 대화 결정하기,대화 완료,SOUL,20,
+Q012,블로칸을 성불하라,PURIFY,M519,1,,ALTAR04_4,블로칸 성불하기,요청을 완료함,SOUL,130,
+Q013,요그누의 시련,KILL,M520,1,,ALTAR04_6,요그누의 시련을 통과하기,요청을 완료함,STAT,6,POINT
+Q014,잔챙이 처리,KILL,M517,3,,ALTAR05_1,미니움(청) 처치,요청을 완료함,SOUL,20,
+Q015,바로 달려들지 않기,PURIFY,M502,2,,ALTAR05_3,차가운 해골딱지 성불하기,요청을 완료함,SOUL,30,
+Q016,잠식의 다른 형태,KILL,M514,3,,ALTAR05_5,우울한 염 처치하기,요청을 완료함,SOUL,40,
+Q017,비참한 흠,PURIFY,M201,1,,ALTAR05_7,비참한 흠 성불하기,요청을 완료함,STAT,4,POINT
+Q018,두 번째 제단을 찾자,TALK,ALTAR06_0,1,,,다른 제단을 찾기,요청을 완료함,SOUL,15,
+Q019,마르몰락의 성불,PURIFY,M203,1,,ALTAR06_2,마르몰락 성불하기,요청을 완료함,SOUL,150,
+Q020,프로메츠 정리작업,KILL,M202,3,,ALTAR06_4,프로메츠 처치하기,요청을 완료함,SOUL,45,
+Q021,바타트의 시련,KILL,M521,1,,ALTAR06_6,바타트의 시련을 통과하기,요청을 완료함,STAT,6,POINT
+Q022,잠식의 또 다른 형태,KILL,M515,3,,ALTAR07_1,건방진 염 처치하기,요청을 완료함,SOUL,30,
+Q023,소음의 근원 제거하기,PURIFY,M302,2,,ALTAR07_3,깜빡부리 성불하기,요청을 완료함,SOUL,40,
+Q024,땅고양이도 시끄럽다,PURIFY,M509,2,,ALTAR07_5,바이르만의 땅고양이 성불하기,요청을 완료함,SOUL,30,
+Q025,두 번째 제단을 찾자,TALK,ALTAR08_0,1,,,다른 제단을 찾기,대화 완료,SOUL,15,
+Q026,남아있는 소음 제거,PURIFY,M515,2,,ALTAR08_2,건방진 염 성불하기,요청을 완료함,SOUL,45,
+Q027,거만한 흠,PURIFY,M301,1,,ALTAR08_4,거만한 흠 성불하기,요청을 완료함,STAT,4,POINT
+Q028,해골딱지의 근원 처리,KILL,M506,1,,ALTAR08_6,뜨거운 해골딱지 여왕 처치하기,요청을 완료함,SOUL,130,
+Q029,바이르만의 시련,KILL,M522,1,,ALTAR08_8,바이르만의 시련을 통과하기,요청을 완료함,STAT,6,POINT

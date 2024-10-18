@@ -1,0 +1,522 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4942177942955368742
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2902554261684054107}
+  - component: {fileID: 6062545004598293836}
+  - component: {fileID: 2110089964778984422}
+  m_Layer: 0
+  m_Name: UumSkill1
+  m_TagString: MonsterAttack
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2902554261684054107
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4942177942955368742}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 8, y: 8, z: 8}
+  m_ConstrainProportionsScale: 1
+  m_Children:
+  - {fileID: 3136753916877987793}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!114 &6062545004598293836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4942177942955368742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62b3650827f415146abddaa07ff5a821, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ccList: 01000000
+  m_impulseAmount: 0.1
+  m_attackEffect: {fileID: 5230207111237413581}
+  m_hitSound: {fileID: 0}
+--- !u!135 &2110089964778984422
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4942177942955368742}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &7958425660154826358
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3136753916877987793}
+  - component: {fileID: 5230207111237413581}
+  - component: {fileID: 8888847411181216333}
+  - component: {fileID: 1776988299125298116}
+  m_Layer: 1
+  m_Name: SkillEffect
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3136753916877987793
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7958425660154826358}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.01, z: 0}
+  m_LocalScale: {x: 0.12, y: 0.12, z: 0.12}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 2902554261684054107}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5230207111237413581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7958425660154826358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36ad37c2b5c808f4c9bdcfba57379f19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_hasVfx: 1
+  m_hasParticle: 0
+  m_hasTrail: 0
+  m_lastTime: -1
+  m_returnDelay: 2
+--- !u!2083052967 &8888847411181216333
+VisualEffect:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7958425660154826358}
+  m_Enabled: 1
+  m_Asset: {fileID: 8926484042661614526, guid: 0f400952a5f95b4408fb97643e621720, type: 3}
+  m_InitialEventName: 
+  m_InitialEventNameOverriden: 1
+  m_StartSeed: 0
+  m_ResetSeedOnPlay: 1
+  m_AllowInstancing: 1
+  m_ResourceVersion: 1
+  m_PropertySheet:
+    m_Float:
+      m_Array: []
+    m_Vector2f:
+      m_Array: []
+    m_Vector3f:
+      m_Array: []
+    m_Vector4f:
+      m_Array: []
+    m_Uint:
+      m_Array: []
+    m_Int:
+      m_Array: []
+    m_Matrix4x4f:
+      m_Array: []
+    m_AnimationCurve:
+      m_Array: []
+    m_Gradient:
+      m_Array:
+      - m_Value:
+          serializedVersion: 2
+          key0: {r: 1, g: 1, b: 1, a: 0}
+          key1: {r: 216.16264, g: 124.85253, b: 361.31564, a: 1}
+          key2: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 0.8}
+          key3: {r: 0, g: 0, b: 0, a: 0}
+          key4: {r: 0, g: 0, b: 0, a: 0}
+          key5: {r: 0, g: 0, b: 0, a: 0}
+          key6: {r: 0, g: 0, b: 0, a: 0}
+          key7: {r: 0, g: 0, b: 0, a: 0}
+          ctime0: 0
+          ctime1: 6168
+          ctime2: 65535
+          ctime3: 0
+          ctime4: 0
+          ctime5: 0
+          ctime6: 0
+          ctime7: 0
+          atime0: 0
+          atime1: 6554
+          atime2: 52428
+          atime3: 65535
+          atime4: 0
+          atime5: 0
+          atime6: 0
+          atime7: 0
+          m_Mode: 0
+          m_ColorSpace: 1
+          m_NumColorKeys: 3
+          m_NumAlphaKeys: 4
+        m_Name: Particle1
+        m_Overridden: 1
+      - m_Value:
+          serializedVersion: 2
+          key0: {r: 1, g: 1, b: 1, a: 0}
+          key1: {r: 0.40851098, g: 0.34745458, b: 1.2075472, a: 1}
+          key2: {r: 0.5, g: 0.5, b: 0.5, a: 0.8}
+          key3: {r: 0, g: 0, b: 0, a: 0}
+          key4: {r: 0, g: 0, b: 0, a: 0}
+          key5: {r: 0, g: 0, b: 0, a: 0}
+          key6: {r: 0, g: 0, b: 0, a: 0}
+          key7: {r: 0, g: 0, b: 0, a: 0}
+          ctime0: 0
+          ctime1: 6361
+          ctime2: 65535
+          ctime3: 0
+          ctime4: 0
+          ctime5: 0
+          ctime6: 0
+          ctime7: 0
+          atime0: 0
+          atime1: 6554
+          atime2: 52428
+          atime3: 65535
+          atime4: 0
+          atime5: 0
+          atime6: 0
+          atime7: 0
+          m_Mode: 0
+          m_ColorSpace: 1
+          m_NumColorKeys: 3
+          m_NumAlphaKeys: 4
+        m_Name: Particle2
+        m_Overridden: 1
+      - m_Value:
+          serializedVersion: 2
+          key0: {r: 1, g: 1, b: 1, a: 0}
+          key1: {r: 1.2165633, g: 0.505874, b: 2.1886792, a: 0.7058824}
+          key2: {r: 0.42274833, g: 0.71103495, b: 0.7169812, a: 0.16095108}
+          key3: {r: 0, g: 0.05231492, b: 0.14901961, a: 0}
+          key4: {r: 0, g: 0, b: 0, a: 0}
+          key5: {r: 0, g: 0, b: 0, a: 0}
+          key6: {r: 0, g: 0, b: 0, a: 0}
+          key7: {r: 0, g: 0, b: 0, a: 0}
+          ctime0: 0
+          ctime1: 7132
+          ctime2: 53199
+          ctime3: 65535
+          ctime4: 0
+          ctime5: 0
+          ctime6: 0
+          ctime7: 0
+          atime0: 0
+          atime1: 6361
+          atime2: 52043
+          atime3: 65535
+          atime4: 0
+          atime5: 0
+          atime6: 0
+          atime7: 0
+          m_Mode: 0
+          m_ColorSpace: 1
+          m_NumColorKeys: 4
+          m_NumAlphaKeys: 4
+        m_Name: Ring
+        m_Overridden: 1
+      - m_Value:
+          serializedVersion: 2
+          key0: {r: 1, g: 1, b: 1, a: 0}
+          key1: {r: 1, g: 1, b: 1, a: 0.58819044}
+          key2: {r: 0.62032855, g: 0.55387604, b: 0.90768534, a: 0.47058824}
+          key3: {r: 0.4745979, g: 0.3826388, b: 0.8722519, a: 0.78431374}
+          key4: {r: 0.25342646, g: 0.28214926, b: 0.8018868, a: 0.7125126}
+          key5: {r: 1, g: 1, b: 1, a: 0.5882353}
+          key6: {r: 0.5, g: 0.5, b: 0.5, a: 0.15686275}
+          key7: {r: 0, g: 0, b: 0, a: 0}
+          ctime0: 0
+          ctime1: 6746
+          ctime2: 25829
+          ctime3: 33153
+          ctime4: 40863
+          ctime5: 53199
+          ctime6: 65535
+          ctime7: 0
+          atime0: 0
+          atime1: 2891
+          atime2: 6554
+          atime3: 27178
+          atime4: 32960
+          atime5: 40863
+          atime6: 53777
+          atime7: 65535
+          m_Mode: 0
+          m_ColorSpace: 1
+          m_NumColorKeys: 7
+          m_NumAlphaKeys: 8
+        m_Name: SmokeGradient
+        m_Overridden: 1
+      - m_Value:
+          serializedVersion: 2
+          key0: {r: 1, g: 1, b: 1, a: 0}
+          key1: {r: 0.46279812, g: 1.5094337, b: 1.1354908, a: 0.36078432}
+          key2: {r: 1.0195961, g: 0.42592546, b: 1.9211957, a: 0.5019608}
+          key3: {r: 0.21262474, g: 0.20251869, b: 0.3490566, a: 0.5058824}
+          key4: {r: 0.18434106, g: 0.14417942, b: 0.2264151, a: 0}
+          key5: {r: 0, g: 0, b: 0, a: 0}
+          key6: {r: 0, g: 0, b: 0, a: 0}
+          key7: {r: 0, g: 0, b: 0, a: 0}
+          ctime0: 0
+          ctime1: 6746
+          ctime2: 32382
+          ctime3: 51850
+          ctime4: 65535
+          ctime5: 0
+          ctime6: 0
+          ctime7: 0
+          atime0: 0
+          atime1: 6554
+          atime2: 32189
+          atime3: 52043
+          atime4: 65535
+          atime5: 0
+          atime6: 0
+          atime7: 0
+          m_Mode: 0
+          m_ColorSpace: 1
+          m_NumColorKeys: 5
+          m_NumAlphaKeys: 5
+        m_Name: Crack
+        m_Overridden: 1
+      - m_Value:
+          serializedVersion: 2
+          key0: {r: 1, g: 1, b: 1, a: 0}
+          key1: {r: 1.9211956, g: 0.5890459, b: 0.9739299, a: 1}
+          key2: {r: 0.20754719, g: 0.1262905, b: 0.1262905, a: 0}
+          key3: {r: 0, g: 0, b: 0, a: 0}
+          key4: {r: 0, g: 0, b: 0, a: 0}
+          key5: {r: 0, g: 0, b: 0, a: 0}
+          key6: {r: 0, g: 0, b: 0, a: 0}
+          key7: {r: 0, g: 0, b: 0, a: 0}
+          ctime0: 0
+          ctime1: 6746
+          ctime2: 65535
+          ctime3: 0
+          ctime4: 0
+          ctime5: 0
+          ctime6: 0
+          ctime7: 0
+          atime0: 0
+          atime1: 6554
+          atime2: 65535
+          atime3: 0
+          atime4: 0
+          atime5: 0
+          atime6: 0
+          atime7: 0
+          m_Mode: 0
+          m_ColorSpace: 1
+          m_NumColorKeys: 3
+          m_NumAlphaKeys: 3
+        m_Name: Wave
+        m_Overridden: 1
+      - m_Value:
+          serializedVersion: 2
+          key0: {r: 1, g: 1, b: 1, a: 0}
+          key1: {r: 2.2104535, g: 0.2879781, b: 4.696256, a: 0.47058824}
+          key2: {r: 0.97005224, g: 0.17536259, b: 4.130765, a: 0.3137255}
+          key3: {r: 0.16854228, g: 0.11743506, b: 0.8584906, a: 0.23529412}
+          key4: {r: 0.05852714, g: 0.04512282, b: 0.24528301, a: 0}
+          key5: {r: 0, g: 0, b: 0, a: 0}
+          key6: {r: 0, g: 0, b: 0, a: 0}
+          key7: {r: 0, g: 0, b: 0, a: 0}
+          ctime0: 0
+          ctime1: 6746
+          ctime2: 32382
+          ctime3: 51850
+          ctime4: 65535
+          ctime5: 0
+          ctime6: 0
+          ctime7: 0
+          atime0: 0
+          atime1: 6554
+          atime2: 32189
+          atime3: 52043
+          atime4: 65535
+          atime5: 65535
+          atime6: 0
+          atime7: 0
+          m_Mode: 0
+          m_ColorSpace: 1
+          m_NumColorKeys: 5
+          m_NumAlphaKeys: 5
+        m_Name: Crack_Black
+        m_Overridden: 1
+      - m_Value:
+          serializedVersion: 2
+          key0: {r: 1, g: 1, b: 1, a: 0}
+          key1: {r: 2.140883, g: 0.57046425, b: 8.062563, a: 0.5882353}
+          key2: {r: 0.46293163, g: 0.6928187, b: 0.9716981, a: 0.78431374}
+          key3: {r: 0.049661797, g: 0.068768784, b: 0.33962262, a: 0.7058824}
+          key4: {r: 0, g: 0, b: 0, a: 0}
+          key5: {r: 0, g: 0, b: 0, a: 0}
+          key6: {r: 0, g: 0, b: 0, a: 0}
+          key7: {r: 0, g: 0, b: 0, a: 0}
+          ctime0: 0
+          ctime1: 7132
+          ctime2: 35659
+          ctime3: 65535
+          ctime4: 0
+          ctime5: 0
+          ctime6: 0
+          ctime7: 0
+          atime0: 0
+          atime1: 3470
+          atime2: 7903
+          atime3: 35273
+          atime4: 65535
+          atime5: 0
+          atime6: 0
+          atime7: 0
+          m_Mode: 0
+          m_ColorSpace: 1
+          m_NumColorKeys: 4
+          m_NumAlphaKeys: 5
+        m_Name: Ring_02
+        m_Overridden: 1
+      - m_Value:
+          serializedVersion: 2
+          key0: {r: 1, g: 1, b: 1, a: 0}
+          key1: {r: 0.17007832, g: 0.21383852, b: 0.3962264, a: 1}
+          key2: {r: 0.5188679, g: 0.5188679, b: 0.5188679, a: 0.8}
+          key3: {r: 0.14150941, g: 0.14150941, b: 0.14150941, a: 0}
+          key4: {r: 0, g: 0, b: 0, a: 0}
+          key5: {r: 0, g: 0, b: 0, a: 0}
+          key6: {r: 0, g: 0, b: 0, a: 0}
+          key7: {r: 0, g: 0, b: 0, a: 0}
+          ctime0: 0
+          ctime1: 6554
+          ctime2: 52428
+          ctime3: 65535
+          ctime4: 0
+          ctime5: 0
+          ctime6: 0
+          ctime7: 0
+          atime0: 0
+          atime1: 6554
+          atime2: 52428
+          atime3: 65535
+          atime4: 0
+          atime5: 0
+          atime6: 0
+          atime7: 0
+          m_Mode: 0
+          m_ColorSpace: 1
+          m_NumColorKeys: 4
+          m_NumAlphaKeys: 4
+        m_Name: DustGradient
+        m_Overridden: 1
+      - m_Value:
+          serializedVersion: 2
+          key0: {r: 1, g: 1, b: 1, a: 0}
+          key1: {r: 0.990566, g: 0.990566, b: 0.990566, a: 0.3764706}
+          key2: {r: 0.1769095, g: 0.10377358, b: 0.41509432, a: 0.41568628}
+          key3: {r: 0.025714241, g: 0.013349941, b: 0.11320752, a: 0.41568628}
+          key4: {r: 0.6698113, g: 0.6698113, b: 0.6698113, a: 0.49803922}
+          key5: {r: 0.5, g: 0.5, b: 0.5, a: 0.44705883}
+          key6: {r: 0, g: 0, b: 0, a: 0.5176471}
+          key7: {r: 0, g: 0, b: 0, a: 0}
+          ctime0: 0
+          ctime1: 15420
+          ctime2: 32768
+          ctime3: 40863
+          ctime4: 53199
+          ctime5: 65535
+          ctime6: 0
+          ctime7: 0
+          atime0: 0
+          atime1: 2891
+          atime2: 6554
+          atime3: 14842
+          atime4: 32768
+          atime5: 40863
+          atime6: 53777
+          atime7: 65535
+          m_Mode: 0
+          m_ColorSpace: 1
+          m_NumColorKeys: 6
+          m_NumAlphaKeys: 8
+        m_Name: SmokeGradient_02
+        m_Overridden: 1
+    m_NamedObject:
+      m_Array: []
+    m_Bool:
+      m_Array: []
+--- !u!73398921 &1776988299125298116
+VFXRenderer:
+  serializedVersion: 1
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7958425660154826358}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0

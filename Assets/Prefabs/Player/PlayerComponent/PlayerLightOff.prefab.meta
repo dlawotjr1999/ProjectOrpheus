@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Prefabs/PlayerSkill/ExplosiveSkill_test.prefab.meta
+<<<<<<< Updated upstream
+guid: 9467b766a8c4cd14a97aa69b2465fe75
+=======
+guid: 6e207b0ea6e73424ca7c8f8caa8ce8f5
+>>>>>>> Stashed changes
+========
+guid: 98b4a9a1745686e4e86f2089c937c949
+>>>>>>>> bf5d4eb9da584f7f5066038ae80831966e04d96e:Assets/Prefabs/Player/PlayerComponent/PlayerLightOff.prefab.meta
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

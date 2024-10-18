@@ -1,0 +1,7 @@
+newmtl Sand02
+map_Pm Sand02_m.png
+bump Sand02_n.png
+map_Kd Sand02_a.png
+Kd 1 1 1
+d 1
+
