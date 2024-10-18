@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0836696b697458c4cace1784f8187404, type: 3}
+  m_Name: ALTAR05_9
+  m_EditorClassIdentifier: 
+  Idx: 35
+  NPC:
+    Type: 1
+    Idx: 4
+  DialogueIdx: 8
+  BranchIdx: 0
+  Lines:
+  - Text: "\uC774 \uC81C\uB2E8\uC5D0\uC11C \uB300\uD654\uD560 \uC218 \uC788\uB294
+      \uD798\uC740 \uC5EC\uAE30\uAE4C\uC9C0\uC778 \uB4EF \uD558\uAD6C\uB098.\n\uB0B4
+      \uAD6C\uC5ED\uC758 \uB2E4\uB978 \uC81C\uB2E8\uC744 \uCC3E\uC544 \uB0A8\uC740
+      \uC2DC\uD5D8\uC744 \uBC1B\uAC70\uB77C."
+    ResultDialogues:
+    - NPC:
+        Type: 1
+        Idx: 5
+      Idx: 0
+    ResultQuest:
+      Quest: 17
+      Function: 0
+  IsOpenAtFirst: 1

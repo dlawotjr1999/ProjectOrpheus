@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac25f8bb3b8ac11439ffe50836962500, type: 3}
+  m_Name: S308
+  m_EditorClassIdentifier: 
+  Idx: 13
+  PowerEnum: 13
+  ID: S308
+  CastType: 2
+  PowerProps: 06000000
+  PowerName: "\uCE7C\uB0A0 \uD3ED\uD48D"
+  Attack: 1.3
+  Magic: 0
+  MoveSpeed: 16
+  CastingRange: 10
+  HitRadius: 1.5
+  PreDelay: 0.3
+  TotalDelay: 0.6
+  Cooltime: 5
+  StaminaCost: 40
+  StatAdjust:
+    Type: 6
+    Amount: 11
+    Time: 0
+    IsDistinctive: 0
+  Description: "\uAC80\uC758 \uAE30\uC6B4\uC744 \uC804\uBC29\uC73C\uB85C \uBC29\uCD9C\uD55C\uB2E4."
+  PowerPrice: 100
+  PowerPrefab: {fileID: 5846662673717380133, guid: be5a1a5fd2f7dd14496f93c33913b23f,
+    type: 3}
+  PowerIcon: {fileID: 21300000, guid: 34ea9a9ae1f1b5e4c819e394e9687645, type: 3}
+  CreateSound: 16
+  HitSound: 18
+  MotionIdx: 5
+  HideWeapon: 0
+  ShowCastingEffect: 0
+  PowerTrail: 3

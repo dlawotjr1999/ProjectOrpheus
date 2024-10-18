@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 936fd58247afb5b4e88584fc8999a20a, type: 3}
+  m_Name: T101
+  m_EditorClassIdentifier: 
+  Idx: 0
+  ID: T101
+  ItemName: "\uB3CC\uBA69\uC774"
+  Description: "\uB3CC\uBA69\uC774\uC785\uB2C8\uB2E4"
+  DropRate: 0.2
+  ItemPrice: 60
+  ItemPrefab: {fileID: 6998195169622807014, guid: d8bd788c9900cb844905bb4e9e37a060,
+    type: 3}
+  ItemImage: {fileID: 21300000, guid: 3281ca696a0a61d42a4bd757e08bb2ce, type: 3}
+  ItemEnum: 0
+  ThrowDamage: 20
+  ThrowSpeed: 2
+  ExplodeTime: 0

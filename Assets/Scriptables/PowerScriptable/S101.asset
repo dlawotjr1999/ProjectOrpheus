@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac25f8bb3b8ac11439ffe50836962500, type: 3}
+  m_Name: S101
+  m_EditorClassIdentifier: 
+  Idx: 0
+  PowerEnum: 0
+  ID: S101
+  CastType: 0
+  PowerProps: 00000000
+  PowerName: "\uBC18\uB2EC \uBCA0\uAE30"
+  Attack: 1.15
+  Magic: 0
+  MoveSpeed: 10
+  CastingRange: 3
+  HitRadius: 3
+  PreDelay: 0.3
+  TotalDelay: 0.6
+  Cooltime: 5
+  StaminaCost: 40
+  StatAdjust:
+    Type: 6
+    Amount: 11
+    Time: 0
+    IsDistinctive: 0
+  Description: "\uBB34\uAE30\uB97C \uBE60\uB974\uAC8C \uD718\uB458\uB7EC \uC804\uBC29\uC758
+    \uC801\uC744 \uACF5\uACA9\uD55C\uB2E4."
+  PowerPrice: 20
+  PowerPrefab: {fileID: 6620599397492391071, guid: 0ba86e03629689d4db0ffd8eb1809e58,
+    type: 3}
+  PowerIcon: {fileID: 21300000, guid: 0d3137fc2d07c614098a622928af680a, type: 3}
+  CreateSound: 1
+  HitSound: 3
+  MotionIdx: 0
+  HideWeapon: 0
+  ShowCastingEffect: 0
+  PowerTrail: 1

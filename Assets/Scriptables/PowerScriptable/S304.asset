@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac25f8bb3b8ac11439ffe50836962500, type: 3}
+  m_Name: S304
+  m_EditorClassIdentifier: 
+  Idx: 9
+  PowerEnum: 9
+  ID: S304
+  CastType: 2
+  PowerProps: 0200000007000000
+  PowerName: "\uD3ED\uBC1C\uD558\uB294 \uC18C\uD63C"
+  Attack: 0
+  Magic: 1.4
+  MoveSpeed: 15
+  CastingRange: 12
+  HitRadius: 0.5
+  PreDelay: 0.3
+  TotalDelay: 0.6
+  Cooltime: 5
+  StaminaCost: 40
+  StatAdjust:
+    Type: 6
+    Amount: 11
+    Time: 0
+    IsDistinctive: 0
+  Description: "\uD3ED\uBC1C\uD558\uB294 \uC791\uC740 \uD63C\uBD88\uC744 \uC804\uBC29\uC73C\uB85C
+    \uB358\uC838 \uC801\uC744 \uACF5\uACA9\uD55C\uB2E4."
+  PowerPrice: 25
+  PowerPrefab: {fileID: 6029828830980019079, guid: f3a1a9d423b206e4c8f6d90bd1b7782a,
+    type: 3}
+  PowerIcon: {fileID: 21300000, guid: 7d005870f9ab7134e949b231bf72903e, type: 3}
+  CreateSound: 9
+  HitSound: 12
+  MotionIdx: 4
+  HideWeapon: 1
+  ShowCastingEffect: 1
+  PowerTrail: 0

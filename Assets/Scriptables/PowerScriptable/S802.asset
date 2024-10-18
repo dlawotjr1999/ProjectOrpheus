@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac25f8bb3b8ac11439ffe50836962500, type: 3}
+  m_Name: S802
+  m_EditorClassIdentifier: 
+  Idx: 34
+  PowerEnum: 34
+  ID: S802
+  CastType: 7
+  PowerProps: 
+  PowerName: "\uD654\uACFC\uB098\uC758 \uBD84\uB178"
+  Attack: 0
+  Magic: 0
+  MoveSpeed: 0
+  CastingRange: 0
+  HitRadius: 0
+  PreDelay: 0.5
+  TotalDelay: 1
+  Cooltime: 30
+  StaminaCost: 60
+  StatAdjust:
+    Type: 0
+    Amount: 1.5
+    Time: 30
+    IsDistinctive: 0
+  Description: "\uC61B \uC2E0 \uD654\uACFC\uB098\uC758 \uBD84\uB178\uB97C \uC804\uC2E0\uC5D0
+    \uB450\uB978\uB2E4."
+  PowerPrice: 350
+  PowerPrefab: {fileID: 0}
+  PowerIcon: {fileID: 21300000, guid: 7b9360d187a380747884d8efd95faa29, type: 3}
+  CreateSound: 26
+  HitSound: 0
+  MotionIdx: 11
+  HideWeapon: 0
+  ShowCastingEffect: 0
+  PowerTrail: 0

@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0836696b697458c4cace1784f8187404, type: 3}
+  m_Name: ALTAR01_9
+  m_EditorClassIdentifier: 
+  Idx: 8
+  NPC:
+    Type: 1
+    Idx: 0
+  DialogueIdx: 8
+  BranchIdx: 0
+  Lines:
+  - Text: "\uC800\uC2B9 \uCD08\uC785\uC5D0\uC11C \uD655\uC778\uD560 \uAC83\uB4E4\uC740
+      \uB2E4 \uD655\uC778\uB418\uC5C8\uB2E4.\n\uC800\uC2B9 \uBCF5\uD310\uC5D0\uB294
+      \uB098\uC758 \uB2E4\uB978 \uC81C\uB2E8\uC774 \uC788\uB2E4.\n\uADF8 \uACF3\uAE4C\uC9C0
+      \uC62C \uC218 \uC788\uC744 \uC9C4 \uBAA8\uB974\uACA0\uC9C0\uB9CC\u2026"
+    ResultDialogues: []
+    ResultQuest:
+      Quest: 28
+      Function: 4
+  - Text: "\uC911\uAC04\uC5D0 \uB2E4\uB978 \uC81C\uB2E8\uC774 \uBCF4\uC774\uBA74
+      \uB300\uD654\uB97C \uC694\uCCAD\uD574\uB77C.\n\uB108\uC758 \uC2E4\uB825\uC744
+      \uC99D\uBA85\uD558\uAE30 \uC88B\uC744 \uAC83\uC774\uB2E4."
+    ResultDialogues:
+    - NPC:
+        Type: 1
+        Idx: 1
+      Idx: 0
+    ResultQuest:
+      Quest: 4
+      Function: 0
+  IsOpenAtFirst: 1

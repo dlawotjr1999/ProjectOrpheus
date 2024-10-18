@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d091059cc4d6b2c4f942132cb29a650e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - AttackPrefab: {instanceID: 0}
+  - m_tempHitEffect: {instanceID: 0}
+  - m_bloodEffect: {instanceID: 0}
+  - m_scriptable: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

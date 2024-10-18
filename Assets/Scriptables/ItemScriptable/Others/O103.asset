@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 328e61d9554fe6545b0a2abeeeb6953b, type: 3}
+  m_Name: O103
+  m_EditorClassIdentifier: 
+  Idx: 2
+  ID: O103
+  ItemName: "\uBE14\uB85C\uCE78\uC758 \uBC1C\uD1B1"
+  Description: "\uBE14\uB85C\uCE78\uC758 \uC55E\uB2E4\uB9AC\uC5D0\uC11C\n\uB5A8\uC5B4\uC9C4
+    \uBC1C\uD1B1\uC774\uB2E4.\n\uC544\uC9C1\uC740 \uC4F8\uBAA8\uAC00 \uC5C6\uC5B4
+    \uBCF4\uC778\uB2E4."
+  DropRate: 0.6
+  ItemPrice: 0
+  ItemPrefab: {fileID: 0}
+  ItemImage: {fileID: 21300000, guid: 3f92bfcc8fb0582448548722e9b1aadb, type: 3}

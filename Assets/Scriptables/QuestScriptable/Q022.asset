@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e792e4304dcb2fe4583121aeadaba67c, type: 3}
+  m_Name: Q022
+  m_EditorClassIdentifier: 
+  Idx: 21
+  Id: Q022
+  Enum: 21
+  Name: "\uC7A0\uC2DD\uC758 \uB610 \uB2E4\uB978 \uD615\uD0DC"
+  Content:
+    Type: 2
+    Amount: 3
+    Monster: 23
+    Item:
+      Type: 4
+      Idx: -1
+    NPC:
+      Type: 4
+      Idx: -1
+  TimeLimit: 0
+  ResultDialogues:
+  - NPC:
+      Type: 1
+      Idx: 6
+    Idx: 1
+  ResultQuests: 
+  Description: "\uAC74\uBC29\uC9C4 \uC5FC \uCC98\uCE58\uD558\uAE30"
+  CompleteInfo: "\uC694\uCCAD\uC744 \uC644\uB8CC\uD568"
+  Reward:
+    Type: 0
+    Amount: 30
+    Stat: 6
+    Item:
+      Type: 4
+      Idx: -1

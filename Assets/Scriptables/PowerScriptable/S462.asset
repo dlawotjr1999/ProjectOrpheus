@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac25f8bb3b8ac11439ffe50836962500, type: 3}
+  m_Name: S462
+  m_EditorClassIdentifier: 
+  Idx: 19
+  PowerEnum: 19
+  ID: S462
+  CastType: 3
+  PowerProps: 0200000007000000
+  PowerName: "\uC601\uD63C \uD3ED\uBC1C"
+  Attack: 0
+  Magic: 1.4
+  MoveSpeed: 10
+  CastingRange: 12
+  HitRadius: 2
+  PreDelay: 0.3
+  TotalDelay: 0.6
+  Cooltime: 8
+  StaminaCost: 50
+  StatAdjust:
+    Type: 6
+    Amount: 11
+    Time: 0
+    IsDistinctive: 0
+  Description: "\uBAA9\uD45C\uD55C \uB300\uC0C1\uC758 \uC601\uD63C\uC744 \uD3ED\uBC1C\uC2DC\uCF1C
+    \uC721\uCCB4\uC640 \uC601\uD63C\uC744 \uBC18\uBC1C\uC2DC\uD0A8\uB2E4."
+  PowerPrice: 200
+  PowerPrefab: {fileID: 3354406449540598687, guid: 308e84570db6a4240a348620be10be68,
+    type: 3}
+  PowerIcon: {fileID: 21300000, guid: 1da60f28a7a34f54ab8af8dca10c440d, type: 3}
+  CreateSound: 15
+  HitSound: 0
+  MotionIdx: 2
+  HideWeapon: 1
+  ShowCastingEffect: 1
+  PowerTrail: 0

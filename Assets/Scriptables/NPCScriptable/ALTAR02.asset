@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c311fc9415d372b42a3657efd4215d81, type: 3}
+  m_Name: ALTAR02
+  m_EditorClassIdentifier: 
+  Idx: 10
+  NPC:
+    Type: 1
+    Idx: 1
+  NPCName: "\uC544\uD6C4\uB85C \uB9C8\uB9AC\uD0C0\uC758 \uC81C\uB2E8"
+  DialogueList:
+  - {fileID: 11400000, guid: 7bb443681e69f5e479e72b87d6be0392, type: 2}
+  - {fileID: 11400000, guid: 07837b37319286e439ddb29e12e4b428, type: 2}
+  QuestList: []
+  DefaultLine: "\uC9C0\uAE08\uC740 \uC81C\uB2E8\uC774 \uBC18\uC751\uD558\uC9C0 \uC54A\uB294\uB2E4."

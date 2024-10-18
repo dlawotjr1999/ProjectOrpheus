@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c311fc9415d372b42a3657efd4215d81, type: 3}
+  m_Name: SLATE11
+  m_EditorClassIdentifier: 
+  Idx: 27
+  NPC:
+    Type: 2
+    Idx: 10
+  NPCName: "\uC815\uBCF4\uC758 \uC11D\uD310"
+  DialogueList: []
+  QuestList: []
+  DefaultLine: "\uBE14\uB85C\uCE78\uC5D0\uAC8C\uB294\n\uC0B4\uC744 \uC8FC\uACE0 \uBF08\uB97C
+    \uCDE8\uD558\uC790."

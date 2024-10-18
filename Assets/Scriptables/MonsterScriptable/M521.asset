@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef03210d7efadd54097cb74fa7379749, type: 3}
+  m_Name: M521
+  m_EditorClassIdentifier: 
+  Idx: 29
+  MonsterEnum: 29
+  ID: M521
+  MonsterType: 1
+  MonsterName: "\uD558\uC9C0\uB974\uBC14\uD0C0\uD2B8\uC758 \uC2DC\uB828"
+  MaxHP: 600
+  Attack: 15
+  MoveSpeed: 2
+  ApproachSpeed: 3.5
+  ViewAngle: 210
+  ViewRange: 20
+  EngageRange: 20
+  ReturnRange: 15
+  AttackRange: 4
+  AttackSpeed: 2.8
+  ApproachDelay: 1
+  FenceRange: 17
+  Description: "\uD558\uC9C0\uB974\uBC14\uD0C0\uD2B8\uC758 \uC2DC\uB828\uC744 \uD1B5\uACFC\uD558\uAE30
+    \uC704\uD574\uC11C\n\uB9C8\uC8FC\uD574\uC57C \uD558\uB294 \uC874\uC7AC.\n\uC815\uBCF4\uAC00
+    \uBD80\uC871\uD558\uB2E4."
+  FirstKillStat: 1
+  DropInfo:
+    Items: []
+    StatPoint: 0
+    Soul: 0
+    Purified: 0
+  MonsterPrefab: {fileID: 5534705623194559339, guid: f9adcff056263aa489f2306ddb111bef,
+    type: 3}
+  MonsterProfile: {fileID: 21300000, guid: aa085d631b8b88b49bc607b863069e8a, type: 3}
+  MonsterBodyImg: {fileID: 21300000, guid: 720c2796ae129b5499a920f35ea9514b, type: 3}

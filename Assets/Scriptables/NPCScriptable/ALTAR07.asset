@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c311fc9415d372b42a3657efd4215d81, type: 3}
+  m_Name: ALTAR07
+  m_EditorClassIdentifier: 
+  Idx: 15
+  NPC:
+    Type: 1
+    Idx: 6
+  NPCName: "\uC624\uC0E4\uD2B8\uB77C \uBC14\uC774\uB974\uB9CC\uC758 \uC81C\uB2E8"
+  DialogueList:
+  - {fileID: 11400000, guid: f42de258a6ba08c49a12eb2ef9f16d9f, type: 2}
+  - {fileID: 11400000, guid: 6dfe13db5f255aa41b5b5899b1beb5f6, type: 2}
+  - {fileID: 11400000, guid: d2e87b8526ffe054da5267b3a0e8ad66, type: 2}
+  - {fileID: 11400000, guid: 916acda0c6dc1f647830e9f4755daa2d, type: 2}
+  - {fileID: 11400000, guid: 1611c8ecfe9d3b846ae78e2be8818f46, type: 2}
+  - {fileID: 11400000, guid: 298c655866c1a264080190174d1af8be, type: 2}
+  - {fileID: 11400000, guid: 0cc3470fddaecb34fb00d9f45ec8b005, type: 2}
+  QuestList:
+  - {fileID: 11400000, guid: fd56a52e0c9c2064393646e2fb1c875f, type: 2}
+  - {fileID: 11400000, guid: 21fdcd475aa374e4d95f3eee7bc64f17, type: 2}
+  - {fileID: 11400000, guid: e81fc1784afb67c43b99e488644a15ce, type: 2}
+  - {fileID: 11400000, guid: d9b1609b4f3d8ff43a24f77a4d9ff65e, type: 2}
+  DefaultLine: "\uC9C0\uAE08\uC740 \uC81C\uB2E8\uC774 \uBC18\uC751\uD558\uC9C0 \uC54A\uB294\uB2E4."

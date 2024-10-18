@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef03210d7efadd54097cb74fa7379749, type: 3}
+  m_Name: M517
+  m_EditorClassIdentifier: 
+  Idx: 25
+  MonsterEnum: 25
+  ID: M517
+  MonsterType: 0
+  MonsterName: "\uBBF8\uB2C8\uC6C0(\uCCAD)"
+  MaxHP: 125
+  Attack: 3
+  MoveSpeed: 3
+  ApproachSpeed: 4
+  ViewAngle: 120
+  ViewRange: 8
+  EngageRange: 8
+  ReturnRange: 10
+  AttackRange: 3.3
+  AttackSpeed: 4.5
+  ApproachDelay: 1
+  FenceRange: 17
+  Description: "\uC8FC \uC11C\uC2DD\uC9C0 : \uD558\uC9C0\uB974\uBC14\uD0C0\uD2B8\uC758
+    \uC601\uC5ED\n\uBBF8\uC219\uD55C \uC601\uD63C\uC774 \uC2E0\uC758 \uC5D0\uB108\uC9C0\uC5D0
+    \uC601\uD5A5\uC744 \uBC1B\uC544 \uC0DD\uAE34 \uAC1C\uCCB4.\n\uC5B4\uB9B0\uC544\uC774\uCC98\uB7FC
+    \uB6F0\uC5B4\uB2E4\uB2CC\uB2E4.\n\uC9C0\uB2A5\uC774 \uB192\uC544\uBCF4\uC774\uC9C0\uB294
+    \uC54A\uB2E4."
+  FirstKillStat: 1
+  DropInfo:
+    Items:
+    - ID: O516
+      Prob: 0.6
+    - ID: P201
+      Prob: 0.2
+    StatPoint: 2
+    Soul: 10
+    Purified: 5
+  MonsterPrefab: {fileID: 6291557583224368823, guid: 0058609bda19df8438c7acec94ba830e,
+    type: 3}
+  MonsterProfile: {fileID: 21300000, guid: 21a3478490af55342940269c2adfe7bc, type: 3}
+  MonsterBodyImg: {fileID: 21300000, guid: f6e462b832a18ab43927fe87106aa430, type: 3}

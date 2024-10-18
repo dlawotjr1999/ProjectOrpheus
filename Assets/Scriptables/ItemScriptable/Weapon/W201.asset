@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a2c3d6d305f31d43a809d166f048a95, type: 3}
+  m_Name: W201
+  m_EditorClassIdentifier: 
+  Idx: 1
+  ID: W201
+  ItemName: "\uAE30\uBCF8 \uC138\uAC80"
+  Description: "\uC800\uC2B9\uC744 \uAD00\uB9AC\uD558\uB294 \uC8FC\uC220\uC0AC\uB77C\uBA74\n\uAE30\uBCF8\uC801\uC73C\uB85C
+    \uB2E4\uB8E8\uB294 \uC138\uAC80\uC774\uB2E4.\n\uBC38\uB7F0\uC2A4\uAC00 \uB6F0\uC5B4\uB098\uB2E4."
+  DropRate: 0
+  ItemPrice: 50
+  ItemPrefab: {fileID: 7402277763102779945, guid: b8f9df03095f18f43a1eb6b48398ca27,
+    type: 3}
+  ItemImage: {fileID: 21300000, guid: ec4608f09b274884f8bbf6d61a6730b7, type: 3}
+  WeaponEnum: 1
+  Attack:
+    Min: 7
+    Max: 11
+  Magic:
+    Min: 7
+    Max: 11
+  AttackSpeed: 1

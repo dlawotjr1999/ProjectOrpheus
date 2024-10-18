@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac25f8bb3b8ac11439ffe50836962500, type: 3}
+  m_Name: S421
+  m_EditorClassIdentifier: 
+  Idx: 17
+  PowerEnum: 17
+  ID: S421
+  CastType: 3
+  PowerProps: 0200000007000000
+  PowerName: "\uD3ED\uBC1C\uD558\uB294 \uC18C\uD63C : \uC6B0\uC6B8"
+  Attack: 0
+  Magic: 1.4
+  MoveSpeed: 12
+  CastingRange: 10
+  HitRadius: 0.5
+  PreDelay: 0.3
+  TotalDelay: 0.6
+  Cooltime: 7
+  StaminaCost: 45
+  StatAdjust:
+    Type: 6
+    Amount: 11
+    Time: 0
+    IsDistinctive: 0
+  Description: "\uC6B0\uC6B8\uC758 \uAE30\uC6B4\uC774 \uB2F4\uAE34 \uD63C\uBD88\uC744
+    \uC804\uBC29\uC73C\uB85C \uB358\uC9C4\uB2E4."
+  PowerPrice: 150
+  PowerPrefab: {fileID: 8635791996586333415, guid: 560337508cfb4b94598ec392f132c470,
+    type: 3}
+  PowerIcon: {fileID: 21300000, guid: 51faded49e8d03543b3146269a65249d, type: 3}
+  CreateSound: 11
+  HitSound: 13
+  MotionIdx: 4
+  HideWeapon: 1
+  ShowCastingEffect: 0
+  PowerTrail: 0

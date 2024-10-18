@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac25f8bb3b8ac11439ffe50836962500, type: 3}
+  m_Name: S603
+  m_EditorClassIdentifier: 
+  Idx: 28
+  PowerEnum: 28
+  ID: S603
+  CastType: 5
+  PowerProps: 0400000007000000
+  PowerName: "\uC601\uD63C\uC758 \uB2AA"
+  Attack: 0
+  Magic: 0.3
+  MoveSpeed: 10
+  CastingRange: 6
+  HitRadius: 5
+  PreDelay: 0.3
+  TotalDelay: 0.6
+  Cooltime: 15
+  StaminaCost: 70
+  StatAdjust:
+    Type: 6
+    Amount: 11
+    Time: 0
+    IsDistinctive: 0
+  Description: "\uC9C0\uBA74\uC5D0 \uC77C\uB801\uC774\uB294 \uC601\uD63C\uC758 \uB2AA\uC744
+    \uB9CC\uB4E0\uB2E4. "
+  PowerPrice: 300
+  PowerPrefab: {fileID: 5736145402532470269, guid: d76c97199982a0447b37b60fd90f0908,
+    type: 3}
+  PowerIcon: {fileID: 21300000, guid: d3acd631662be954e8cb7cb402a7a967, type: 3}
+  CreateSound: 24
+  HitSound: 0
+  MotionIdx: 10
+  HideWeapon: 1
+  ShowCastingEffect: 0
+  PowerTrail: 0

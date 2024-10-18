@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e792e4304dcb2fe4583121aeadaba67c, type: 3}
+  m_Name: Q010
+  m_EditorClassIdentifier: 
+  Idx: 9
+  Id: Q010
+  Enum: 9
+  Name: "\uB610 \uB2E4\uB978 \uC81C\uB2E82"
+  Content:
+    Type: 1
+    Amount: 1
+    Monster: 31
+    Item:
+      Type: 4
+      Idx: -1
+    NPC:
+      Type: 4
+      Idx: -1
+  TimeLimit: 0
+  ResultDialogues: []
+  ResultQuests: 
+  Description: "\uB2E4\uB978 \uC81C\uB2E8\uC744 \uCC3E\uAE30"
+  CompleteInfo: "\uB300\uD654 \uC644\uB8CC"
+  Reward:
+    Type: 0
+    Amount: 15
+    Stat: 6
+    Item:
+      Type: 4
+      Idx: -1

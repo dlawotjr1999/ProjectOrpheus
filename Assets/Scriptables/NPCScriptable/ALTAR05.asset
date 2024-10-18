@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c311fc9415d372b42a3657efd4215d81, type: 3}
+  m_Name: ALTAR05
+  m_EditorClassIdentifier: 
+  Idx: 13
+  NPC:
+    Type: 1
+    Idx: 4
+  NPCName: "\uD558\uC9C0\uB974\uBC14\uD0C0\uD2B8\uC758 \uC81C\uB2E8"
+  DialogueList:
+  - {fileID: 11400000, guid: 6d7a18d8a5df70b419c413497ad00dff, type: 2}
+  - {fileID: 11400000, guid: df94c789ccdf0a94daba8d39f47155a3, type: 2}
+  - {fileID: 11400000, guid: 36762a36659050443af687cf32a73c9d, type: 2}
+  - {fileID: 11400000, guid: 8a5d177a6bd0afc4db86617ffd0fefad, type: 2}
+  - {fileID: 11400000, guid: 4fc10ff56b19c4b408c5b70108baa8e9, type: 2}
+  - {fileID: 11400000, guid: 8fd9dff832bb42d4a9d5225abe56d50a, type: 2}
+  - {fileID: 11400000, guid: b6b87023f28edaa49912597e473e9776, type: 2}
+  - {fileID: 11400000, guid: d12e7ac25d3a11848b77dc761868eb39, type: 2}
+  - {fileID: 11400000, guid: 6cb57efade897764da4541d47586d917, type: 2}
+  QuestList:
+  - {fileID: 11400000, guid: ef96fb61400838641a08c8f4c4b3e94c, type: 2}
+  - {fileID: 11400000, guid: f3eb62bbd588eab4080a1b836b7fa481, type: 2}
+  - {fileID: 11400000, guid: 18537a9a5678f0c4082ceede7efde4d6, type: 2}
+  - {fileID: 11400000, guid: a76f47b0c529aa24abcea90a9bc52028, type: 2}
+  - {fileID: 11400000, guid: 9609533be8f136146bb099ebaa1b48d9, type: 2}
+  DefaultLine: "\uC9C0\uAE08\uC740 \uC81C\uB2E8\uC774 \uBC18\uC751\uD558\uC9C0 \uC54A\uB294\uB2E4."
