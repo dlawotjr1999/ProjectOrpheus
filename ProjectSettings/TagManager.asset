@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Stair
+  - WallRun
+  - Climb
+  - Fly
+  - Monster
+  - PlayerWeapon
+  - PlayerPower
+  - MonsterAttack
+  - PlayerSkill
+  - Oasis
+  - Terrain
+  - MonsterHit
+  - Item
+  - Water
+  - Weapon
+  - Animal
+  - Region
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Hiding
+  - Water
+  - UI
+  - Ground
+  - Interactable
+  - CameraModel
+  - Hittable
+  - Player
+  - 
+  - 
+  - 
+  - 
+  - BodyPart
+  - 
+  - 
+  - 
+  - 
+  - Animal
+  - 
+  - 
+  - Enemy
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Item
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: playerimage
+    uniqueID: 3859456163
+    locked: 0
